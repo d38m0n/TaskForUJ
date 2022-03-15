@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: '/console'
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+#  datasource:
+#    url:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
